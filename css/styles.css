@@ -747,12 +747,21 @@ body {
   border: 1px solid #ececec;
   display: flex;
   flex-direction: column;
+}
+
+.portfolio-item :hover .portfolio-item-top-text {
+  transform: translateY(0);
+}
+
+.portfolio-item-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-item:nth-child(-n + 3) {
   margin-top: 0px;
 }
+
 .portfolio-item:nth-child(3n + 1) {
   margin-left: 0px;
 }
@@ -767,11 +776,19 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-item-top-tex {
+.portfolio-item-top-text {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: tomato;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-align: center;
+  background: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  height: 294px;
+  transform: translateY(100%);
 }
 
 .portfolio-title {
@@ -792,6 +809,7 @@ body {
 
   text-align: left;
 }
+
 .portfolio-content {
   padding: 20px 24px;
 }
