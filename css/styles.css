@@ -156,6 +156,8 @@ body {
 .header-cont-link {
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail-color {
@@ -437,11 +439,11 @@ body {
 
 .social-network-list {
   display: flex;
-
   justify-content: center;
   align-items: center;
-
   margin-bottom: 30px;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-network-item {
@@ -491,6 +493,8 @@ body {
 
 .clients-list {
   display: flex;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-title {
@@ -576,6 +580,10 @@ body {
   font-style: normal;
 }
 
+.footer-list {
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-item {
   margin-bottom: 9px;
 }
@@ -637,9 +645,10 @@ body {
 
 .footer-social-network-list {
   display: flex;
-
   justify-content: center;
   align-items: center;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-network-item {
@@ -684,7 +693,7 @@ body {
   background-color: #2196f3;
 }
 
-/* ======= PORTFOLIO BTN SECTION ===== */
+/* ===================btn section================= */
 
 .portfolio-section {
   padding-top: 95px;
@@ -721,6 +730,8 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   border: none;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-nav:hover,
@@ -729,7 +740,7 @@ body {
   color: #ffffff;
 }
 
-/* portfolio section */
+/* ===================PORTFOLIO BTN SECTION================= */
 
 .porfolio-list {
   display: flex;
@@ -744,7 +755,6 @@ body {
   margin-top: 30px;
 
   width: calc(100% / 3 - 30px);
-  border: 1px solid #ececec;
   display: flex;
   flex-direction: column;
 }
@@ -768,6 +778,8 @@ body {
 
 .portfolio-link {
   text-decoration: none;
+
+  transition: optical 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
@@ -863,36 +875,9 @@ body {
 
 .backdrop.is-hidden .modal {
   transform: rotate(180deg);
-  /* transform: scale(2.5) rotate(80deg) translate(500px); */
+
   transition: transform 1250ms;
 }
-
-/* .modal {
-  width: 528px;
-  height: 581px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: scale(1) rotate(0);
-  transform: translate(-50%, -50%);
-  transition: transform 1000ms;
-} */
-
-/* .modal-close {
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .is-hidden {
   visibility: hidden;
