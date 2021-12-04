@@ -895,7 +895,7 @@ body {
 .backdrop.is-hidden .modal {
   transform: rotate(180deg);
 
-  transition: transform 1250ms;
+  transition: transform 250ms;
 }
 
 .is-hidden {
